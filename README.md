@@ -2,6 +2,7 @@
 ## Estudo e projetos em linguagem Python
 
 001. Curso: Iniciando com Python
+     - Diretório: **SchoolOfNet**
      - Organização emissora: **School Of Net** -> (www.schoolofnet.com)
      - **Status**:
        - [ ] Em andamento
@@ -15,6 +16,7 @@
        - IDE PyCharm Community Edition 2019.3.3
        
 002. Curso: Python Básico
+     - Diretório: **Solyd-Treinamentos**
      - Organização emissora: **Solyd Treinamentos** -> (www.solyd.com.br)
      - **Status**:
        - [ ] Em andamento
@@ -28,6 +30,7 @@
        - IDE PyCharm Community Edition 2019.3.3
        
 003. Apostila: Python e Orientação a Objeto
+     - Diretório: **Caelum**
      - Organização emissora: **Caelum** -> (www.caelum.com.br)
      - **Status**:
        - [x] Em andamento
