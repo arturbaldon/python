@@ -43,3 +43,17 @@
      - Ambiente:
        - Python 3.8.2
        - IDE PyCharm Community Edition 2019.3.3
+
+004. Curso: ALGORITMOS E LÓGICA DE PROGRAMAÇÃO 2020 - O CURSO COMPLETO
+     - Diretório: **UDEMY-ALP2020**
+     - Organização emissora: **Udemy** -> (www.udemy.com)
+     - **Status**:
+       - [ ] Em andamento
+       - [X] Concluido
+     - **Certificado**:
+       - [ ] Sim
+       - [ ] Não
+     - Período:
+     - Ambiente:
+       - Python 3.8.2
+       - IDE PyCharm Community Edition 2020.2.1
