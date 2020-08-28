@@ -1,6 +1,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/arturbaldon/python)
 # python
-## Estudo e projetos em linguagem Python
+## Estudo e projetos em linguagem Python :snake:
 
 001. Curso: Iniciando com Python
      - Diretório: **SchoolOfNet**
