@@ -3,7 +3,7 @@
 # VER ARQUIVO: "03-estrutura-sequencial-exercicios".
 # --------------------------------------------------------->
 
-# biblioteca para matemática.
+# biblioteca para funções matemática.
 import math
 
 # usuário entra com os dados solicitados.

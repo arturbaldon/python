@@ -16,4 +16,4 @@ idade_pessoa2 = int(input("Idade: "))
 idade_media = (idade_pessoa1 + idade_pessoa2) / 2
 
 # exibe os nomes e idade média
-print(f"A idade média de {nome_pessoa1} e {nome_pessoa2} é de {idade_media} anos")
+print(f"A idade média de {nome_pessoa1} e {nome_pessoa2} é de {idade_media:.1f} anos")
