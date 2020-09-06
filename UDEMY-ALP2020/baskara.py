@@ -16,7 +16,7 @@ delta = pow(b, 2.0) - (4 * a * c)
 
 # verifica se a equação possui raízes reais e caso positivo
 # calcular e exibir os valores de x1 e x2.
-if a == 0 or delta < 0:
+if delta < 0:
     print("Esta equação não possui raízes reais.")
 else:
     x1 = (- b + math.sqrt(delta)) / (2 * a)
