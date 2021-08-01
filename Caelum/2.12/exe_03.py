@@ -1,0 +1,1 @@
+print("primeira linha de código\nsegunda linha de código")
