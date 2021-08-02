@@ -13,5 +13,3 @@ while opcao == "I" or opcao == "P" or opcao == "E" or opcao == "L":
     elif opcao == "L":
         listar(usuarios)
     opcao = perguntar()
-
-print("FIM!")

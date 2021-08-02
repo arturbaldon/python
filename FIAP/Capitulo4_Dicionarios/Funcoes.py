@@ -1,23 +1,3 @@
-from datetime import datetime
-
-
-def datahora(value):
-    now = datetime.now()
-    if value == "data_acesso":
-        dia = now.day
-        mes = now.month
-        ano = now.year
-        resposta = f"{dia}/{mes}/{ano}"
-    elif value == "hora_acesso":
-        hora = now.hour
-        minuto = now.minute
-        segundo = now.second
-        resposta = f"{hora}:{minuto}:{segundo}"
-    else:
-        resposta = "ERRO FUNÇÃO DATAHORA"
-    return resposta
-
-
 def perguntar():
     print("O que deseja realizar?")
     print()
@@ -25,7 +5,6 @@ def perguntar():
     print("<P> - Para Pesquisar um usuário")
     print("<E> - Para Excluir um usuário")
     print("<L> - Para Listar um usuário")
-    print("<S> - Para Sair")
     print()
     resposta = input("Opção: ").upper()
     return resposta
@@ -35,9 +14,8 @@ def inserir(dicionario):
     chave = input("Digite o login: ").upper()
     dicionario[chave] = [
         input("Digite o nome: ").upper(),
-        input("Qual a última estação acessada: ").upper(),
-        datahora("data_acesso"),
-        datahora("hora_acesso")
+        input("Digite a última data de acesso: "),
+        input("Qual a última estação acessada: ").upper()
     ]
     print()
 
@@ -47,10 +25,9 @@ def pesquisar(dicionario, chave):
     if lista is None:
         print("Usuário não encontrado!")
     else:
-        print("Nome..............: " + lista[0])
-        print("Última estação....: " + lista[1])
-        print("Data de acesso....: " + lista[2])
-        print("Horário de acesso.: " + lista[3])
+        print("Nome...........: " + lista[0])
+        print("Último acesso..: " + lista[1])
+        print("ùltima estação.: " + lista[2])
     print()
 
 
